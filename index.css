@@ -1,0 +1,113 @@
+@import url('http://fonts.cdnfonts.com/css/cursed-timer-ulil');
+body {
+    margin: 0;
+    background-image: url("Background.webp");
+    background-size: 1280px 720px;
+    background-repeat: no-repeat;
+}
+.inner{
+    width: 45px;
+    height: 45px;
+    background-color:black; 
+    align-content: center;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 26px;
+    margin-right: 6px;
+}
+.inner h1{
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+
+/* or 155% */
+
+text-align: center;
+
+color: #9AABD8;
+}
+.home-box{
+    width: 155px;
+    height: 120px;
+    background-color:black; 
+    
+    border-radius: 10px;
+    margin-top: 25%;
+    padding-top: 21px;
+    padding-right: 20px;
+    text-align: center;
+     
+}
+.guest-box{
+    width: 155px;
+    height: 120px;
+    background-color:black; 
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 25%;
+    padding-top: 21px;
+    padding-left: 20px;
+    
+     
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 82px;
+    margin-left: 82px;
+    position: relative;
+    width: 575px;
+    height: 385px;
+    background: #1B244A;
+    margin: 5% 26%;
+    background: rgba(0,0,0,0.5);
+     backdrop-filter: saturate(180%) blur(10px);
+     border-radius: 1cm;
+    
+    
+    
+    
+}
+
+.container h3{
+    
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    color: aliceblue;
+
+    
+    
+}
+.plus{
+width: 45px;
+height: 45px;
+left: 82px;
+top: 271px;
+}
+
+
+#home-score{
+font-family: 'Cursed Timer ULiL', sans-serif;                                              
+font-weight: 400;
+font-size: 90px;
+line-height: 127px;
+text-align: center;
+color: #F94F6D;
+display: inline;
+}
+
+#guest-score{
+font-family: 'Cursed Timer ULiL', sans-serif;                                           
+font-weight: 400;
+font-size: 90px;
+line-height: 127px;
+text-align: center;
+color: #F94F6D;
+display:inline;
+
+}
